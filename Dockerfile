@@ -14,7 +14,7 @@ LABEL org.label-schema.url="https://github.com/SeVile/MusicBot"
 LABEL org.label-schema.vcs-url="https://github.com/BeeMoe5/jmb-container"
 LABEL org.label-schema.vcs-ref=$VCS_REF
 LABEL org.label-schema.version=$VERSION
-LABEL org.label-schema.docker.cmd="docker run -v ./config:/jmb/config -d ghcr.io/BeeMoe/jmusicbot:latest"
+LABEL org.label-schema.docker.cmd="docker run -v ./config:/jmb/config -d ghcr.io/beemoe5/jmusicbot:latest"
 
 RUN apk add --update --no-cache \
     openjdk11-jre-headless tini
