@@ -2,7 +2,7 @@ version: '2.2'
 
 services:
   jmusicbot:
-    image: ghcr.io/BeeMoe5/jmb-container
+    image: ghcr.io/beemoe5/jmb-container
     container_name: jmusicbot
     restart: unless-stopped
     volumes:
